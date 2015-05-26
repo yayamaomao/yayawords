@@ -20,18 +20,19 @@
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:text="Got it!"
         android:id="@+id/bt_done"
-        android:layout_above="@+id/bt_next"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true"
         android:clickable="true"
-        android:nestedScrollingEnabled="false" />
+        android:nestedScrollingEnabled="false"
+        android:layout_above="@+id/bt_next"
+        android:layout_alignEnd="@+id/tV_hint2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp" />
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:text="Give Some Hints!"
         android:id="@+id/bt_next"
         android:layout_alignParentBottom="true"
